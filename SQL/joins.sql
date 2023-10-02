@@ -60,6 +60,5 @@ SELECT Student.s_name,Teacher.T_name
 FROM Student
 RIGHT JOIN Teacher ON Student.s_name = Teacher.T_name;
 
-SELECT * FROM Teacher;
 
 
